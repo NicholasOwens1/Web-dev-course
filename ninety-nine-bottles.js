@@ -9,7 +9,8 @@ const bottles = (number) => {
                 console.log(`Only 1 bottle of beer on the wall, only one bottle of beer. Take one down, pass it around. There's no more bottles of beer on the wall!`)
                 continue
             } else {
-                if (i < 2 && i > 0) {
+                if (i < 3 && i > 1) {
+                    console.log(`2 bottles of beer on the wall, 2 bottles of beer. Take one down, pass it around. Only one bottle of beer on the wall!`)
                     continue
                 }
             }
